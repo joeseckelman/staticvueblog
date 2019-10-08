@@ -32,7 +32,7 @@
 					<b-form-input
 						id="email"
 						v-model="form.email"
-						type="email" 
+						type="text" 
 						:class="{'form-control-plaintext form-control-squared sleek':true, 'is-invalid': !formEmail && formEmailBlurred}"
 						placeholder="Enter email" 
 						class="form-control-plaintext form-control-squared sleek"
