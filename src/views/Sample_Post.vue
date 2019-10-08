@@ -2,7 +2,7 @@
   <div class="home">
 	<div class="jumbotron jumbotron-fluid hero-image">
       <div class="hero-content col-12 col-md-6 offset-md-3 text-left">
-        <h2 class="display-4 hero-title">
+        <h2 class="display-4 hero-title no-separator">
           Tamquam pri, nobis veniam his ea
         </h2>
         <p class="lead">Quo timeam denique cu. No soluta mucius eos. Nulla graece no his</p>

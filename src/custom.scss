@@ -1,10 +1,5 @@
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
+@import 'scss/bootstrap';
 @import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
-/*@import '~@assets/fontawesome/css/all.min.css';*/
-/*@import "assets/fontawesome/scss/fontawesome.scss";*/
-/*@import "assets/fontawesome/scss/solid.scss";*/
-/*@import "assets/fontawesome/scss/brands.scss";*/
 
 
 #app {
@@ -107,6 +102,11 @@
       bottom:0;
       left:50%;
       transform:translateX(-50%);
+    }
+    &.no-separator{
+      &:after{
+        content:none;
+      }
     }
   }
   .lead {
